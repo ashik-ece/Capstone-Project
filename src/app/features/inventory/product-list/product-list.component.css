@@ -1,0 +1,135 @@
+/* You can add global styles to this file, and also import other style files */
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  button {
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #007bff;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.1rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-custom {
+    background-color: #007bff;
+    padding: 10px 0;
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: white;
+  }
+  
+  .navbar-custom .nav-link {
+    color: white;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #f8f9fa;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Form Styles */
+  form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  form input[type="text"]:focus,
+  form input[type="email"]:focus,
+  form input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  small {
+    color: #dc3545;
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #dc3545;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    nav a {
+      font-size: 1rem;
+    }
+  
+    form {
+      padding: 15px;
+    }
+  
+    footer {
+      padding: 10px 0;
+    }
+  }
+  
